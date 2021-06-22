@@ -148,7 +148,7 @@ void deleteAcc()   //For deleting an account
     rename("temp.txt","bank.txt");
     cout<<"\n----Account deleted successfully----\n";
 }
-void modif()
+void modif()  //Modify an Account
 {
     account c;
     int n;
